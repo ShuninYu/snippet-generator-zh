@@ -88,7 +88,7 @@ const Output = () => {
 
         <div className="app__buttons">
           <button className="app__btn app__btncopy" onClick={writeToClipboard}>
-            {savedToClipboard ? "Copied" : "Copy snippet"}
+            {savedToClipboard ? "复制成功" : "复制代码段"}
           </button>
         </div>
       </div>
