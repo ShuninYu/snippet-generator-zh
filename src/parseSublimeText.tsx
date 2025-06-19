@@ -15,7 +15,7 @@ const renderSublimeText = (
     ]]></content>
       <tabTrigger>${tabtrigger}</tabTrigger>
       <description>${description}</description>
-      <!-- 可选：设置作用域以限制代码片段触发的位置 -->
+      <!-- Optional: Set a scope to limit where the snippet will trigger -->
       <!-- <scope >source.python</scope > -->
     </snippet>
   `;
